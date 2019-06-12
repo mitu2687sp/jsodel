@@ -3,7 +3,7 @@ import {snakeToCamel, camelToSnake, camelCase } from './utility/stringUtility'
 import Form from 'vform'
 import {arrayWrap} from './utility/arrayUtitlity'
 
-export default class Model {
+class Model {
 
     constructor () {
         this.form = new Form
@@ -151,3 +151,5 @@ export default class Model {
     }
 
 }
+
+export default Model

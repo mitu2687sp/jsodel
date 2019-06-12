@@ -3,7 +3,8 @@ import ImageUploadable from './ImageUploadable'
 import ArrayMappable from './entities/ArrayMappable'
 
 export {
-  Model as default,
+  Model,
   ImageUploadable,
-  ArrayMappable
+  ArrayMappable,
+  Model as default,
 }
