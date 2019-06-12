@@ -11,7 +11,7 @@
     "build": "webpack"
   },
   "author": "mitu2687sp <mitu2687sp@gmail.com> (mfgames.xyz)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/polyfill": "^7.4.4",
