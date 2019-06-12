@@ -1,0 +1,31 @@
+{
+  "name": "jsodel",
+  "version": "1.0.0",
+  "description": "jsodel is a javascript model mapper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitu2687sp/jsodel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+  },
+  "author": "mitu2687sp <mitu2687sp@gmail.com> (mfgames.xyz)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.16",
+    "linq": "^3.1.0",
+    "pluralize": "^8.0.0",
+    "vform": "^1.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "axios": "^0.18.0"
+  }
+}
