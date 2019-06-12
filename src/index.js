@@ -6,5 +6,5 @@ export {
   Model,
   ImageUploadable,
   ArrayMappable,
-  Model as default,
+  Model as default
 }

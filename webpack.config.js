@@ -1,10 +1,14 @@
+const webpack = require('webpack')
+
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
   entry: ['@babel/polyfill', './src/index.js'], // polyfill はIE11などで必要
   output: {
     path: `${__dirname}`,
-    filename: 'index.js'
+    filename: 'index.js',
+    libraryTarget: 'umd',
+    library: 'jsodel',
   },
   module: {
     rules: [
@@ -16,5 +20,8 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin()
+  ],
 };
