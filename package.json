@@ -1,6 +1,6 @@
 {
   "name": "jsodel",
-  "version": "1.0.13",
+  "version": "1.0.21",
   "description": "jsodel is a javascript model mapper",
   "main": "index.js",
   "repository": {

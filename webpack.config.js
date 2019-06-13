@@ -24,4 +24,9 @@ module.exports = {
   plugins: [
     new webpack.optimize.ModuleConcatenationPlugin()
   ],
+  externals: [
+    {
+      axios : true,
+    }
+  ]
 };
