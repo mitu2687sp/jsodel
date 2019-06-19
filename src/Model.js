@@ -114,7 +114,7 @@ class Model {
                 const key = camelToSnake(x.key)
 
                 if(x.value && x.value.getPostable instanceof Function) {
-                    x.value = this[key].getPostable()
+                    x.value = x.value.getPostable()
                 }
 
                 if(x.value instanceof Array && x.value[0]) {
